@@ -598,16 +598,17 @@
     border: none;
     margin-bottom: 3rem;
   }
+
   /* Tag list
     ============================= */
 
   .tag-list {
-      padding: 0;
-      list-style: none;
+    padding: 0;
+    list-style: none;
   }
 
   .tag-list li {
-      display: inline;
+    display: inline;
   }
 
   .tag-list li::after {
