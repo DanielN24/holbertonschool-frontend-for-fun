@@ -1,18 +1,9 @@
 /*loop photos*/
-@mixin width($w) {
-    width: $w;
+/* Use each to create classes */
+@import '11-photos.scss';
+
+@each $name in $list-names {
+  .photo-#{$name} {
+    background: image-url("photos/#{$name}.jpg") no-repeat;
   }
-  
-  @for $i from 1 through 4 {
-    .col-#{$i} {
-      @if $i == 1 {
-        @include width(100%);
-      } @else if $i == 2 {
-        @include width(50%);
-      } @else if $i == 3 {
-        @include width(33.3333333333%);
-      } @else {
-        @include width(25%);
-      }
-    }
-  }
+}
