@@ -1,0 +1,9 @@
+/*Sass file that assigns text color */
+$textBodyColor: #3D3D3D;
+$textClassColor: #FF0000;
+body{
+    color: $textBodyColor;
+    .red {
+        color: $textClassColor;
+    }
+}
