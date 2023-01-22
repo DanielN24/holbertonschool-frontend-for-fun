@@ -1,0 +1,12 @@
+/*Sass file that assigns  text color, background color and must use 2 Sass variables*/
+$textColor: #3D3D3D;
+$backgroundColor: #6D6D6D;
+body {
+    color: $textColor;
+    background-color: $backgroundColor; }
+  
+  p {
+    color: $textColor; }
+  
+  h2 {
+    background-color: $backgroundColor; }
