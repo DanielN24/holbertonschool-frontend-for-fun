@@ -1,7 +1,7 @@
 /*Sass file that assigns Text color #FF0000 to button tags*/
 $buttonColor: #FF0000;
 button {
-    color: #FF0000; 
+    color: $buttonColor; 
     &:hover {
       color: #00FF00;
     }
