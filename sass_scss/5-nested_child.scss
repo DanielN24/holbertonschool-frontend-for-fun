@@ -3,7 +3,7 @@ $textBodyColor: #3D3D3D;
 $textClassColor: #FF0000;
 body{
     color: $textBodyColor;
-    .red:first-child {
+    > .red {
         color: $textClassColor;
     }
 }
